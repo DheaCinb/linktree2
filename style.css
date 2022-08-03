@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+    height: 100vh;
+    background: linear-gradient(rgb(41, 165, 165), rgb(1, 103, 103), rgb(4, 64, 82));
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.atas{
+    font-weight: 150px;
+    text-align: center;
+}
+
+.container .atas img{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+
+.container .atas p{
+    padding-top: 5px;
+    font-family: monospace;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: white;
+}
+
+.isi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.link{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    font-size: 16px;
+}
+
+.link a{
+    border: 1px solid white;
+    padding: 14px;
+    margin: 9px;
+    width: 400px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 7px;
+    background-color: white;
+    list-style-type: none;
+    color: black;
+    box-shadow: 0 7px 15px 0px lightseagreen;
+}
+
+.link a:hover{
+    transition: all .3s ease-in-out;
+    background-color: cadetblue;
+    color: white;
+    border-radius: 1px solid ; 
+}
+
+.icon {
+    margin-top: 20px;
+}
+
+.tombol i{
+    display: inline-block;
+    flex-direction: row;   
+    letter-spacing: 5px;
+    color: white;
+    width: auto;
+    height: auto;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 120px;
+    color: white;
+    font-size: 16px;
+}
